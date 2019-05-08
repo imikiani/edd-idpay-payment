@@ -24,4 +24,4 @@ function idpay_for_edd_load_textdomain() {
 
 add_action( 'init', 'idpay_for_edd_load_textdomain' );
 
-include_once('includes/idpay-edd-gateway.php');
+include_once( plugin_dir_path( __FILE__ ) . 'includes/idpay-edd-gateway.php' );
